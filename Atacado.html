@@ -1,40 +1,49 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
- <title>Atacado</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="carrinho.js"></script>
+    <title>Atacado</title>
 </head>
 
 <body>
     
     <header>
-        <div class="menu">
-            <div class="left-side-menu">
-                <div class="logo">
-                    <img src="img/bx-store.svg" alt="">magalu
-                </div>
-
-                <div id="h-titulo">
-                    <h1>ATACADO DE PRODUTO</h1>
-                </div>
-
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </li>
-                    </ul>
-                </nav>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Atacado das Peças</h1>
             </div>
 
-            <div class="right-side-menu">
-              <a href=""><img src="img/icon-cart.svg"></a> 
-               <a href=""><img src="img/icon-menu.svg"></a>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Visao geral</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Estoque</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
             </div>
-        </div>
 
-        <div class="line"></div>
+            <div class="login-button">
+                <a href="" class="icon-avatar"><img src=""></a>  
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Visao geral</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Estoque</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="line"></div>
     </header>
 
     <main>
@@ -127,6 +136,33 @@
 
         </section>
     </main>
+
+   <footer>
+        <div class="footer-top">
+            <div class="footer-top-left">
+                <a href="#">termos de serviço</a>
+                <a href="#">política de privacideda</a>
+            </div>
+            
+        
+       
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <a href="" target="_blank" rel="noopener noreferrer"> 
+                <img class="footer-img" src="imagem/instagram1.jpg" alt="">
+             </a>
+            </div>
+            
+            <div class="footer-bottom-right">
+                <img class="footer-img" src="img/pix-19179718.webp" alt="">
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="index.js"></script>
     
 </body>
 </html>
